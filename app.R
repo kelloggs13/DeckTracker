@@ -82,7 +82,7 @@ server <- function(input, output, session) {
     paste("Number of actions ", counter.actions$countervalue)  
   })
   
-  # initialize percentages
+  # initialize percentagess
   perc.draws <- reactiveValues(value = 0)
   perc.actions <- reactiveValues(value = 0)
   
