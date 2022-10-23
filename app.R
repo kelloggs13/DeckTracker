@@ -71,9 +71,9 @@ server <- function(input, output, session) {
     counter.actions$countervalue <- counter.actions$countervalue - 1
   })
   
-  # output current values of counters
+  # output current values of counterss
   output$cards <- renderText({
-    paste("Number of cards ", counter.cards$countervalue)   
+    paste("Number of cards ", counter.cards$countervalue)    
   })
   output$draws <- renderText({
     paste("Number of draws ", counter.draws$countervalue)   
